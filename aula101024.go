@@ -16,7 +16,7 @@ func somaEmaior(a int, b int) (int, int) {
     return a + b, maior
 }
 
-func main1010() { // Onde o código principal é executado
+func main101024() { // Onde o código principal é executado
     fmt.Printf("Hello World!\n")
     
     v := 1
