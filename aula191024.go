@@ -1,6 +1,8 @@
 package main
 
-//import ("fmt","math")
+import ("fmt")//,"math")
+
+//Lista 05
 
 /*5) Apresente o quadrado de cada um dos números pares entre 1 e 1000, inclusive.
 
@@ -18,3 +20,14 @@ func aula191024()  {
 	for i := 1; i <= 200; i++ {
 		if i % 5 == 0 {
 			fmt.Println(i)}}}*/
+
+/*7) Escreva um algoritmo que leia 10 valores quaisquer. A seguir, mostre quantos deles estão
+dentro do intervalo (10,20) e quantos estão fora do intervalo, mostrando essas informações.*/
+
+func main(){
+	var num[10]int
+	fmt.Printf("Digite 10 números: ")
+	for i := 0; i < 10; i++ {
+		fmt.Scan(&num[i])
+	}
+}

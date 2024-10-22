@@ -1,6 +1,8 @@
 package main
 //import "fmt"
 
+//Lista 02
+
 /*5) Faça um algoritmo que leia um número e mostre uma das mensagens: é múltiplo de 3 ou
 não é múltiplo de 3.
 
