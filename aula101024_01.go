@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+/*import "fmt"
 
 func main101001() {
 	var total int
@@ -51,4 +51,4 @@ func main101001() {
 	fmt.Printf("Notas de dez: %d\n", qtdDez)
 	fmt.Printf("Notas de cinco: %d\n", qtdCinc)
 	fmt.Printf("Notas de dois: %d\n", qtdDois)
-}
+}*/

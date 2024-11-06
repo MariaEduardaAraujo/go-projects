@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+/*import "fmt"
 
 // Retorna a soma de dois números
 func soma(a int, b int) int {
@@ -28,4 +28,4 @@ func main101024() { // Onde o código principal é executado
     somaMaior, maior := somaEmaior(10, 3)
     fmt.Printf("Soma: %d\n", somaMaior)
     fmt.Printf("Maior: %d\n", maior)
-}
+}*/

@@ -1,6 +1,6 @@
 package main
 
-import ("fmt")//,"math")
+//import ("fmt","math")
 
 //Lista 05
 
@@ -22,12 +22,28 @@ func aula191024()  {
 			fmt.Println(i)}}}*/
 
 /*7) Escreva um algoritmo que leia 10 valores quaisquer. A seguir, mostre quantos deles estão
-dentro do intervalo (10,20) e quantos estão fora do intervalo, mostrando essas informações.*/
+dentro do intervalo (10,20) e quantos estão fora do intervalo, mostrando essas informações.
 
-func main(){
-	var num[10]int
-	fmt.Printf("Digite 10 números: ")
+func aula191024(){
+    var c int
+	var num[] int
+	var dentro[] int
+	var fora[] int
+
+	fmt.Printf("Digite 10 números: \n")
 	for i := 0; i < 10; i++ {
-		fmt.Scan(&num[i])
+		fmt.Printf("Número %d: ", i+1)
+		fmt.Scan(&c)
+		num = append(num, c)
 	}
-}
+
+	for j := 0; j < len(num); j++ {
+	    if num[j] >= 10 && num[j] <= 20{
+		    dentro = append(dentro, num[j])
+		}else{
+		    fora = append(fora, num[j])
+		}
+	}
+	fmt.Printf("Números dentro do intervalo: %d\n", dentro)
+	fmt.Printf("Números fora do intervalo: %d\n", fora)
+}*/
