@@ -97,8 +97,7 @@ func main(){
 		fmt.Printf("O resultado da soma é: %d", soma+8)
 	}else{
 		fmt.Printf("O resultado da soma é: %d", soma-5)
-	}
-}*/
+	}}*/
 
 /*5) Faça um algoritmo que leia um número e mostre uma das mensagens: é múltiplo de 3 ou
 não é múltiplo de 3.
