@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
+//import (	"fmt"	"math")
 
 //Lista 05
 
@@ -74,10 +71,11 @@ func aula191024(){
 	fmt.Printf("A média dos números pares é: %d", media)
 }*/
 
-/*4) Leia 2 valores: X e Y. A seguir, calcule e mostre a soma dos números impares entre eles*/
+/*4) Leia 2 valores: X e Y. A seguir, calcule e mostre a soma dos números impares entre eles
 
 func aula191024(){
 	var num1, num2 int
+	var soma int = 0
 
 	fmt.Printf("Digite dois números: \n")
 	fmt.Printf("Número 1: ")
@@ -85,10 +83,13 @@ func aula191024(){
 	fmt.Printf("Número 2: ")
 	fmt.Scan(&num2)
 
-	for i := 0; i < count; i++ {
-		
+	for i := num1; i <= num2; i++ {
+		if i % 2 != 0{
+			soma = soma + i
+		}
 	}
-}
+	fmt.Printf("A soma dos números %v e %v é: %v", num1, num2, soma)
+}*/
 
 /*5) Apresente o quadrado de cada um dos números pares entre 1 e 1000, inclusive.
 
